@@ -47,12 +47,6 @@ class Contact extends Component {
   }
 }
 
-// Contact.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   email: PropTypes.string.isRequired,
-//   phone: PropTypes.string.isRequired
-// }
-
 Contact.propTypes = {
   contact: PropTypes.object.isRequired,
 }
